@@ -81,9 +81,9 @@
     & > .auction-box__icon {
       filter: brightness(0);
     }
-    & > .auction-box__icon {
-      // filter: drop-shadow(0px 0px 2px black);
-    }
+    // & > .auction-box__icon {
+    //   // filter: drop-shadow(0px 0px 2px black);
+    // }
   }
 
   &__data {
@@ -116,6 +116,24 @@
         transition-duration: 0.35s;
         opacity: 0;
         background-color: $color-grey-dark-3;
+      }
+
+      @include respond(big-desktop) {
+      }
+      @include respond(normal-desktop) {
+      }
+      @include respond(small-desktopl) {
+      }
+      @include respond(tab-land) {
+      }
+      @include respond(mini-desktop) {
+      }
+      @include respond(tab-port) {
+        width: 100%;
+      }
+      @include respond(phone) {
+      }
+      @include respond(phone-small) {
       }
     }
   }

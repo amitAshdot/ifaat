@@ -882,6 +882,11 @@ body {
   opacity: 0;
   background-color: #444444;
 }
+@media only screen and (max-width: 58.75em) {
+  .auction-box__data-cta {
+    width: 100%;
+  }
+}
 .auction-box__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -978,6 +983,9 @@ body {
   height: 44px;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: #ffffff;
   font-size: 1.5rem;
   padding: 0 1rem;
@@ -997,6 +1005,9 @@ body {
   height: 44px;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background: #444444;
   color: white;
   font-size: 1.5rem;
@@ -1105,6 +1116,9 @@ body {
   height: 44px;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   width: 70%;
   margin: 0.5rem auto;
   padding: 1rem 2rem;
@@ -1124,6 +1138,9 @@ body {
   height: 44px;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   width: 70%;
   margin: 0.5rem auto;
   padding: 1rem 2rem;

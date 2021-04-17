@@ -12,6 +12,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+// @mixin button {
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   appearance: none;
+// }
 
 @mixin inputBasic {
   font-family: 'Rubik';
@@ -22,6 +27,7 @@
   height: 44px;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  appearance: none;
   @include respond(big-desktop) {
   }
   @include respond(normal-desktop) {

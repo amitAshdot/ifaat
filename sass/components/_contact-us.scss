@@ -120,6 +120,7 @@
       padding: 0 1rem;
     }
     &-submit {
+      // @include button;
       @include inputBasic;
       background: $color-grey-dark-3;
       // background: #0051e8;
