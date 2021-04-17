@@ -6,6 +6,8 @@
   top: -100%;
   opacity: 0;
   transition: all 0.2s ease-in-out;
+  z-index: 9999;
+
   &-overlay {
     position: absolute;
     top: 0;
@@ -14,11 +16,15 @@
     height: 100%;
     background: rgba($color-grey-dark-2, 0.8);
   }
-  z-index: 9999;
+
+  &-title {
+    text-align: center;
+    font-size: 1.7em;
+  }
 }
 .popup-section {
   @include absltCenter;
-  background-image: url(../../images/contactbh.png);
+  background-image: url(../images/contactbh.png);
   padding: 5rem;
   &__container {
     position: relative;
@@ -27,6 +33,23 @@
       top: 3rem;
       right: 3rem;
     }
+  }
+  @include respond(big-desktop) {
+  }
+  @include respond(normal-desktop) {
+  }
+  @include respond(small-desktopl) {
+  }
+  @include respond(tab-land) {
+  }
+  @include respond(mini-desktop) {
+  }
+  @include respond(tab-port) {
+    width: 95%;
+  }
+  @include respond(phone) {
+  }
+  @include respond(phone-small) {
   }
 }
 .popup__form {
