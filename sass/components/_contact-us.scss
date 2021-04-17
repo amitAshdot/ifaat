@@ -105,7 +105,7 @@
       @include respond(mini-desktop) {
       }
       @include respond(tab-port) {
-font-size: 4em;
+        font-size: 4em;
       }
       @include respond(phone) {
       }
@@ -152,18 +152,16 @@ font-size: 4em;
     }
     & > p {
       color: white;
-text-align: center;
-}
-
-    }
-    & > p > a {
-      text-decoration: none; /* no underline */
-      color: white; /* blue colors for links too */
-      cursor: pointer;
-    }
-
-    & > h1 {
       text-align: center;
     }
+  }
+  & > p > a {
+    text-decoration: none; /* no underline */
+    color: white; /* blue colors for links too */
+    cursor: pointer;
+  }
+
+  & > h1 {
+    text-align: center;
   }
 }
