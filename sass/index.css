@@ -971,7 +971,7 @@ body {
 }
 @media only screen and (max-width: 58.75em) {
   .contact-us__form > p {
-    font-size: 2.5em;
+    font-size: 4em;
   }
 }
 .contact-us__form-input {
@@ -1028,6 +1028,7 @@ body {
 @media only screen and (max-width: 58.75em) {
   .contact-us__cta {
     font-size: 3em;
+    text-align: center;
   }
 }
 .contact-us__cta > p {
