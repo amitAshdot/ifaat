@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap);
+// @import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap);
 
 @font-face {
   font-family: 'Rubik-Bold';
@@ -7,11 +7,11 @@
 
 }
 @font-face {
-  font-family: 'Rubik';
+  font-family: 'rubik';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https:;//fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap)
+  src: url('../../fonts/Rubik.woff')
 }
 $rubik-cursive: 'rubik', cursive;
 
