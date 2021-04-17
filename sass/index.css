@@ -800,7 +800,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 @media only screen and (max-width: 58.75em) {
   .auction-section {
