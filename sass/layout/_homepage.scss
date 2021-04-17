@@ -1,0 +1,83 @@
+.header {
+  display: block;
+
+  &__logo {
+  }
+}
+
+.main-section {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  @include respond(big-desktop) {
+  }
+  @include respond(normal-desktop) {
+  }
+  @include respond(small-desktopl) {
+  }
+  @include respond(tab-land) {
+  }
+  @include respond(mini-desktop) {
+    font-size: 1.2rem;
+  }
+  @include respond(tab-port) {
+  }
+  @include respond(phone) {
+  }
+  @include respond(phone-small) {
+  }
+}
+.main {
+  &-title {
+    display: block;
+    padding-bottom: 2rem;
+    &-cta {
+      font-family: 'Rubik';
+      font-weight: bolder;
+      position: relative;
+      /* background: #43c55e; */
+      background: #0051e8;
+      z-index: 5;
+      /* border: 2px solid #34b447; */
+      border: 2px solid #0043c1;
+      border-radius: 6px;
+      // box-shadow: -2px 2px 5px 1px rgba($color-grey-dark-2, 1);
+      color: white;
+      padding: 5px;
+      margin: auto;
+      margin-top: 20px;
+      display: block;
+      width: fit-content;
+      cursor: pointer;
+      @include shine(#0051e8);
+      animation: shake 4.72s ease infinite;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        @include buttonHover;
+
+        // &::before {
+        //   // right: 50%;
+        //   // transform: translateX(50%);
+        //   width: 96%;
+        //   opacity: 1;
+        //   // bottom: 10%;
+        // }
+      }
+
+      // &::before {
+      //   content: '';
+      //   position: absolute;
+      //   bottom: 10%;
+      //   right: 50%;
+      //   transform: translateX(50%);
+
+      //   width: 0px;
+      //   height: 1px;
+      //   transition: all 0.3s ease-in-out;
+      //   transition-duration: 0.35s;
+      //   opacity: 0;
+      //   background-color: white;
+      // }
+    }
+  }
+}

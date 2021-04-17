@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url('../../fonts/Rubik-Bold.ttf');
+}
+// @font-face {
+//   font-family: 'adoveFnt22-bold';
+//   src: url(https://amitashdot.github.io/targetCall-landing//fonts/ploni-bold-aaa.otf);
+// }
+// @font-face {
+//   font-family: 'adoveFnt22-ultrabold';
+//   src: url(https://amitashdot.github.io/targetCall-landing//fonts/ploni-ultrabold-aaa.otf);
+// }
+
+body {
+  font-family: 'rubik', cursive;
+  font-weight: 400;
+  font-size: $defaut-font-size;
+  line-height: 1.7;
+}
+
+.blue-text {
+  color: $color-primary;
+}
+.orange-text {
+  color: $color-secondary;
+}
+.bold {
+  font-weight: bold;
+  font-family: 'Rubik-Bold';
+}
+
+.blueBG {
+  background: #0052e7;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5% 0.5% 0.8% 0;
+  margin-left: 0.5%;
+}

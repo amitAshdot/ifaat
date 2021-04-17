@@ -1,0 +1,157 @@
+.contact-us-section {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background-color: #44c960;
+  background-image: url(../../images/contactbh.png);
+  border-radius: 4px;
+  padding: 5rem 10rem;
+  color: #000;
+  font-size: 1vw;
+
+  @include respond(big-desktop) {
+  }
+  @include respond(normal-desktop) {
+  }
+  @include respond(small-desktopl) {
+  }
+  @include respond(tab-land) {
+  }
+  @include respond(mini-desktop) {
+  }
+  @include respond(tab-port) {
+    flex-direction: column;
+    padding: 3rem 3rem;
+  }
+  @include respond(phone) {
+  }
+  @include respond(phone-small) {
+  }
+}
+.contact-us {
+  &-title {
+    text-align: center;
+    font-size: 1.7em;
+    @include respond(big-desktop) {
+    }
+    @include respond(normal-desktop) {
+    }
+    @include respond(small-desktopl) {
+    }
+    @include respond(tab-land) {
+    }
+    @include respond(mini-desktop) {
+    }
+    @include respond(tab-port) {
+      font-size: 2.5em;
+    }
+    @include respond(phone) {
+    }
+    @include respond(phone-small) {
+    }
+  }
+  &-subtitle {
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.09px;
+    line-height: 1.1;
+    color: #343434;
+    font-size: 23px;
+    margin-right: 2rem;
+    background: yellow;
+    padding: 5px;
+    max-width: 674px;
+    width: 100%;
+    text-align: right;
+    @include respond(big-desktop) {
+    }
+    @include respond(normal-desktop) {
+    }
+    @include respond(small-desktopl) {
+    }
+    @include respond(tab-land) {
+    }
+    @include respond(mini-desktop) {
+    }
+    @include respond(tab-port) {
+      font-size: 3.2em;
+    }
+    @include respond(phone) {
+    }
+    @include respond(phone-small) {
+    }
+  }
+  &__form {
+    flex-grow: 0.6;
+    text-align: center;
+
+    & > p {
+      margin: 2rem 2rem;
+      text-align: right;
+      @include respond(big-desktop) {
+      }
+      @include respond(normal-desktop) {
+      }
+      @include respond(small-desktopl) {
+      }
+      @include respond(tab-land) {
+      }
+      @include respond(mini-desktop) {
+      }
+      @include respond(tab-port) {
+        font-size: 2.5em;
+      }
+      @include respond(phone) {
+      }
+      @include respond(phone-small) {
+      }
+    }
+
+    &-input {
+      @include inputBasic;
+      background: #ffffff;
+      font-size: 1.5rem;
+      padding: 0 1rem;
+    }
+    &-submit {
+      @include inputBasic;
+      background: $color-grey-dark-3;
+      // background: #0051e8;
+      color: white;
+      font-size: 1.5rem;
+    }
+  }
+  &__cta {
+    font-family: 'Rubik';
+    flex-grow: 0.2;
+
+    @include respond(big-desktop) {
+    }
+    @include respond(normal-desktop) {
+    }
+    @include respond(small-desktopl) {
+    }
+    @include respond(tab-land) {
+    }
+    @include respond(mini-desktop) {
+    }
+    @include respond(tab-port) {
+      font-size: 3em;
+    }
+    @include respond(phone) {
+    }
+    @include respond(phone-small) {
+    }
+    & > p {
+      color: white;
+    }
+    & > p > a {
+      text-decoration: none; /* no underline */
+      color: white; /* blue colors for links too */
+      cursor: pointer;
+    }
+
+    & > h1 {
+      text-align: center;
+    }
+  }
+}
