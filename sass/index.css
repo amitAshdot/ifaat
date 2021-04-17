@@ -19,6 +19,8 @@ $breakpoint argument choices
 
 1em =16px
 */
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap);
+@import url(../fonts/Rubik-Bold.ttf);
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -217,6 +219,13 @@ body {
   font-family: "Rubik-Bold";
   src: url("../fonts/Rubik-Bold.ttf");
   font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https:;//fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap);
 }
 body {
   font-family: "rubik", cursive;

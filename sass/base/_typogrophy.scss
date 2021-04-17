@@ -1,20 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap);
+@import url(../fonts/Rubik-Bold.ttf);
 @font-face {
   font-family: 'Rubik-Bold';
   src: url('../fonts/Rubik-Bold.ttf');
   font-display: swap;
 
 }
-// @font-face {
-//   font-family: 'adoveFnt22-bold';
-//   src: url(https://amitashdot.github.io/targetCall-landing//fonts/ploni-bold-aaa.otf);
-// }
-// @font-face {
-//   font-family: 'adoveFnt22-ultrabold';
-//   src: url(https://amitashdot.github.io/targetCall-landing//fonts/ploni-ultrabold-aaa.otf);
-// }
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https:;//fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap)
+}
+$roboto-slab: 'rubik', cursive;
 
+// *{
+//   font-family: 'Rubik';
+// }
 body {
-  font-family: 'rubik', cursive;
+  font-family: $roboto-slab;
   font-weight: 400;
   font-size: $defaut-font-size;
   line-height: 1.7;
