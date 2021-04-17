@@ -39,6 +39,7 @@
   @include respond(mini-desktop) {
     width: 95%;
     margin: 0.5rem 0.5%;
+    font-size: 2rem;
   }
   @include respond(tab-port) {
   }

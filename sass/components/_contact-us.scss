@@ -43,7 +43,7 @@
     @include respond(mini-desktop) {
     }
     @include respond(tab-port) {
-      font-size: 4.2em;
+      font-size: 5em;
     }
     @include respond(phone) {
     }
@@ -77,10 +77,13 @@
     @include respond(mini-desktop) {
     }
     @include respond(tab-port) {
-      font-size: 3.2em;
+      font-size: 5em;
       max-width: 100%;
       margin-right: 0;
       text-align: center;
+      color: $color-white;
+      background: none;
+
     }
     @include respond(phone) {
     }
@@ -145,6 +148,7 @@
     }
     @include respond(tab-port) {
       font-size: 3em;
+      text-align: center;
     }
     @include respond(phone) {
     }

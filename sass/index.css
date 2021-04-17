@@ -216,6 +216,7 @@ body {
 @font-face {
   font-family: "Rubik-Bold";
   src: url("../fonts/Rubik-Bold.ttf");
+  font-display: swap;
 }
 body {
   font-family: "rubik", cursive;
@@ -243,6 +244,16 @@ body {
   border-radius: 10px;
   padding: 0.5% 0.5% 0.8% 0;
   margin-left: 0.5%;
+}
+
+.mobile-margin-top::before {
+  content: "\a";
+  white-space: pre;
+}
+@media only screen and (max-width: 58.75em) {
+  .mobile-margin-top {
+    white-space: pre-line;
+  }
 }
 
 .u-newLine::before {
@@ -934,7 +945,7 @@ body {
 }
 @media only screen and (max-width: 58.75em) {
   .contact-us-title {
-    font-size: 4.2em;
+    font-size: 5em;
   }
 }
 .contact-us-subtitle {
@@ -953,10 +964,12 @@ body {
 }
 @media only screen and (max-width: 58.75em) {
   .contact-us-subtitle {
-    font-size: 3.2em;
+    font-size: 5em;
     max-width: 100%;
     margin-right: 0;
     text-align: center;
+    color: #ffffff;
+    background: none;
   }
 }
 .contact-us__form {
@@ -994,6 +1007,7 @@ body {
   .contact-us__form-input {
     width: 95%;
     margin: 0.5rem 0.5%;
+    font-size: 2rem;
   }
 }
 .contact-us__form-submit {
@@ -1017,6 +1031,7 @@ body {
   .contact-us__form-submit {
     width: 95%;
     margin: 0.5rem 0.5%;
+    font-size: 2rem;
   }
 }
 .contact-us__cta {
@@ -1033,15 +1048,16 @@ body {
 }
 .contact-us__cta > p {
   color: white;
+  text-align: center;
 }
-.contact-us__cta > p > a {
+.contact-us > p > a {
   text-decoration: none;
   /* no underline */
   color: white;
   /* blue colors for links too */
   cursor: pointer;
 }
-.contact-us__cta > h1 {
+.contact-us > h1 {
   text-align: center;
 }
 
@@ -1120,6 +1136,7 @@ body {
   .popup__form-input {
     width: 95%;
     margin: 0.5rem 0.5%;
+    font-size: 2rem;
   }
 }
 .popup__form-submit {
@@ -1145,6 +1162,7 @@ body {
   .popup__form-submit {
     width: 95%;
     margin: 0.5rem 0.5%;
+    font-size: 2rem;
   }
 }
 .popup__form-close {
