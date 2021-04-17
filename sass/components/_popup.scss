@@ -89,8 +89,8 @@
     border: none;
     cursor: pointer;
 
-    &:hover {
-    }
+    // &:hover {
+    // }
 
     & > span {
       cursor: pointer;
@@ -112,5 +112,5 @@
   padding: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  margin: -1px;
+  margin: -1px;  
 }
