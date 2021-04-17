@@ -22,7 +22,6 @@
   height: 44px;
   border: 1px solid #ffffff;
   border-radius: 5px;
-
   @include respond(big-desktop) {
   }
   @include respond(normal-desktop) {

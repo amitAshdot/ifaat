@@ -25,7 +25,6 @@
 .popup-section {
   @include absltCenter;
   background-image: url(../images/contactbh.png);
-  padding: 5rem;
   &__container {
     position: relative;
     &-close {
@@ -53,8 +52,10 @@
   }
 }
 .popup__form {
+  position: relative;
   display: flex;
   flex-direction: column;
+  padding: 5rem;
 
   &-input {
     @include inputBasic;
@@ -72,9 +73,44 @@
     padding: 1rem 2rem;
     background: $color-grey-dark-3;
     color: $color-white;
+    cursor: pointer;
+  }
+
+  &-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    width: fit-content;
+    padding: 0.5rem;
+    font-size: 2rem;
+    line-height: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+    }
+
+    & > span {
+      cursor: pointer;
+    }
   }
 }
 .popup-show {
   top: 50%;
   opacity: 1;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
