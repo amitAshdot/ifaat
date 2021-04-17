@@ -220,11 +220,11 @@ body {
   font-display: swap;
 }
 @font-face {
-  font-family: "Rubik";
+  font-family: "rubik";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https:;//fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap);
+  src: url("../fonts/Rubik.woff");
 }
 body {
   font-family: "rubik", cursive;
@@ -1019,6 +1019,7 @@ body {
   }
 }
 .contact-us__form-submit {
+  position: relative;
   font-family: "Rubik";
   font-weight: bolder;
   width: 23%;
@@ -1041,6 +1042,63 @@ body {
     margin: 0.5rem 0.5%;
     font-size: 2rem;
   }
+}
+.contact-us__form-submit:focus {
+  outline: 0;
+}
+.contact-us__form-submit:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  -webkit-transform: translateX(-100px) skewX(-15deg);
+      -ms-transform: translateX(-100px) skewX(-15deg);
+          transform: translateX(-100px) skewX(-15deg);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact-us__form-submit:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transform: translateX(-100px) skewX(-15deg);
+      -ms-transform: translateX(-100px) skewX(-15deg);
+          transform: translateX(-100px) skewX(-15deg);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.contact-us__form-submit:hover {
+  background: #444444;
+  cursor: pointer;
+}
+.contact-us__form-submit:hover:before {
+  -webkit-transform: translateX(350px) skewX(-15deg);
+      -ms-transform: translateX(350px) skewX(-15deg);
+          transform: translateX(350px) skewX(-15deg);
+  opacity: 0.6;
+}
+.contact-us__form-submit:hover:after {
+  -webkit-transform: translateX(350px) skewX(-15deg);
+      -ms-transform: translateX(350px) skewX(-15deg);
+          transform: translateX(350px) skewX(-15deg);
+  opacity: 1;
 }
 .contact-us__cta {
   font-family: "Rubik";

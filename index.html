@@ -513,15 +513,13 @@
 
       const focusOnForm = () => {
         document.getElementById('accountname').focus()
-
-        // $('#accountname').focus();
       }
 
       //check keyPress on phone input if is number
       const onInputChange = (evt, id) => {
         let phone = document.getElementById(id)
-        // let charCode = evt.data.charCodeAt(0)
-        var charCode = evt.which ? evt.which : evt.keyCode
+        let charCode = evt.data.charCodeAt(0)
+        // var charCode = evt.which ? evt.which : evt.keyCode
 
         debugger
 
