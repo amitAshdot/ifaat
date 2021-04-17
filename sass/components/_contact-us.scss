@@ -43,7 +43,7 @@
     @include respond(mini-desktop) {
     }
     @include respond(tab-port) {
-      font-size: 2.5em;
+      font-size: 4.2em;
     }
     @include respond(phone) {
     }
@@ -55,11 +55,15 @@
     letter-spacing: 0.09px;
     line-height: 1.1;
     color: #343434;
-    font-size: 23px;
+    // font-size: 23px;
+    font-size: 1em;
+    border-radius: 5px;
+
     margin-right: 2rem;
     background: yellow;
     padding: 5px;
-    max-width: 674px;
+    // max-width: 674px;
+    max-width: 49%;
     width: 100%;
     text-align: right;
     @include respond(big-desktop) {
@@ -74,6 +78,9 @@
     }
     @include respond(tab-port) {
       font-size: 3.2em;
+      max-width: 100%;
+      margin-right: 0;
+      text-align: center;
     }
     @include respond(phone) {
     }
