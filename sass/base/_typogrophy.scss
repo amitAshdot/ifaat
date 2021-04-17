@@ -13,13 +13,13 @@
   font-display: swap;
   src: url(https:;//fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap)
 }
-$roboto-slab: 'rubik', cursive;
+$rubik-cursive: 'rubik', cursive;
 
 // *{
 //   font-family: 'Rubik';
 // }
 body {
-  font-family: $roboto-slab;
+  font-family: $rubik-cursive;
   font-weight: 400;
   font-size: $defaut-font-size;
   line-height: 1.7;
