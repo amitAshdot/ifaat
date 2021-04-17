@@ -25,14 +25,14 @@
 .popup-section {
   @include absltCenter;
   background-image: url(../images/contactbh.png);
-  &__container {
-    position: relative;
-    &-close {
-      position: absolute;
-      top: 3rem;
-      right: 3rem;
-    }
-  }
+  // &__container {
+  //   position: relative;
+  //   // &-close {
+  //   //   position: absolute;
+  //   //   top: 3rem;
+  //   //   right: 3rem;
+  //   // }
+  // }
   @include respond(big-desktop) {
   }
   @include respond(normal-desktop) {
@@ -88,6 +88,9 @@
     background: transparent;
     border: none;
     cursor: pointer;
+    @include respond(tab-port) {
+      right: 0.2rem;
+    }
 
     // &:hover {
     // }

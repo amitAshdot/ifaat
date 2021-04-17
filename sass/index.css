@@ -1083,14 +1083,6 @@ body {
           transform: translate(-50%, -50%);
   background-image: url(../images/contactbh.png);
 }
-.popup-section__container {
-  position: relative;
-}
-.popup-section__container-close {
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-}
 @media only screen and (max-width: 58.75em) {
   .popup-section {
     width: 95%;
@@ -1167,6 +1159,11 @@ body {
   background: transparent;
   border: none;
   cursor: pointer;
+}
+@media only screen and (max-width: 58.75em) {
+  .popup__form-close {
+    right: 0.2rem;
+  }
 }
 .popup__form-close > span {
   cursor: pointer;
